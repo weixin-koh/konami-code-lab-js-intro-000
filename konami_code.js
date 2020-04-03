@@ -15,10 +15,7 @@ var index = 0;
 
 function init() {
   // Attaching an keydown event listener to document.body
-  document.body.addEventListener("keydown", (event) => {
-    // Now, how can we check for which specific key was pressed?
-    event.key
-  }
+  document.body.addEventListener("keydown", onKeyDownHandler);
 }
 
 function onKeyDownHandler(e) {
